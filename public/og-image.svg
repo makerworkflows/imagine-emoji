@@ -1,0 +1,20 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0a0a0a"/>
+  <!-- Subtle grid -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1a" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <!-- Glow -->
+  <ellipse cx="600" cy="280" rx="400" ry="200" fill="#a855f7" opacity="0.06"/>
+  <!-- Emojis -->
+  <text x="600" y="240" text-anchor="middle" font-size="100" fill="white">🎬🍿🎭🎪</text>
+  <!-- Title -->
+  <text x="600" y="370" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="900" fill="#e8e8e8" letter-spacing="8">IMAGINE EMOJI</text>
+  <!-- Tagline -->
+  <text x="600" y="430" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#666" font-weight="500">Guess the movie from emojis alone.</text>
+  <!-- Accent line -->
+  <rect x="500" y="455" width="200" height="3" rx="2" fill="#a855f7" opacity="0.6"/>
+</svg>
